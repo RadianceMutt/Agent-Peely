@@ -1,0 +1,5 @@
+requests==2.30.0
+colorama~=0.4.6
+py-cord~=2.4.1
+roblox~=2.0.0
+datetime~=5.1.0
