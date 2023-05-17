@@ -61,8 +61,6 @@ And finally, launch your bot!
 
 -----------------------------------
 
-Due to Master Tom being in a early development stage, you can only use
-the bot in The Sparklefur Den discord server. This is to prevent the bot being
-spammed and ratelimited by Discord.
+Due to Master Tom being in a early development stage, you cannot add the bot to your servers.
 
 As soon as the bot exits out of the beta phase, the bot will be available to add in active servers only. 
