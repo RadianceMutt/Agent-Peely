@@ -3,3 +3,4 @@ colorama~=0.4.6
 py-cord~=2.4.1
 roblox~=2.0.0
 datetime~=5.1.0
+pymongo~=4.3.3
