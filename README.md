@@ -1,8 +1,8 @@
-# Master Tom - Python Furry Discord Bot 🦊
+# Agent Peely - Python Discord Bot 🍌
 
 -------------------------------
 
-Master Tom is an bot made for furry communities on Discord and made with Python.
+Agent Peely is an bot made for furry and gaming communities on Discord and made with Python.
 
 -------------------------------
 
@@ -50,6 +50,8 @@ or if you prefer the long way, run these commands.
 
 ```pip install pymongo``` <- Heavily recommended for MongoDB database support.
 
+```pip install fortnite_api``` <- Optional if you want Fortnite features.
+
 -----------------------------------
 
 
@@ -61,6 +63,6 @@ And finally, launch your bot!
 
 -----------------------------------
 
-Due to Master Tom being in a early development stage, you cannot add the bot to your servers.
+Due to Agent Peely being in a early development stage, you cannot add the bot to your servers.
 
 As soon as the bot exits out of the beta phase, the bot will be available to add in active servers only. 
