@@ -1,10 +1,11 @@
-from requests import get
-from discord.ext import commands
-from discord import slash_command
-from discord import Embed
-from roblox import Client, AvatarThumbnailType
-from objects import handling
 import colorama
+from discord import Embed
+from discord import slash_command
+from discord.ext import commands
+from requests import get
+from roblox import Client, AvatarThumbnailType
+
+from objects import handler
 
 init = Client()
 
@@ -54,7 +55,7 @@ class Roblox(commands.Cog):
             await ctx.respond(embeds=[embed])
 
         except Exception as error:
-            await handling.throw_error(error=error, ctx=ctx)
+            await handler.throw_error(error=error, ctx=ctx)
 
     @slash_command(description="Displays data about a Roblox player.")
     async def display_roblox_player(self, ctx, user_id: int):
