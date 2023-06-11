@@ -2,7 +2,7 @@ from discord import Intents
 from discord import __version__
 from discord import Colour as colour
 
-discord_token = 'ODczNDgwMzE5OTM5MDAyNDA4.GN5eGf.ek0-pYBU7nfB16d6kFbwph08aGyHelpSWnjX9A'
+discord_token = 'TOKEN'
 discord_colour = colour.yellow()
 
 fortnite_token = '01e7010a-7e19-4b7f-b920-8c3a3f141674'
