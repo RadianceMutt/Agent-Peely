@@ -2,7 +2,7 @@
 
 -------------------------------
 
-Agent Peely is an bot made for furry and gaming communities on Discord and made with Python.
+Agent Peely is an bot made for furry and Fortnite communities on Discord and made with Python.
 
 -------------------------------
 
@@ -36,21 +36,21 @@ Then, input this command in.
 
 ```pip install requirements.txt```
 
-or if you prefer the long way, run these commands.
+or if you prefer the long way, run these commands. The ones with italic text are deprecated in the main bot.
 
-```pip install requests``` <- This should be preinstalled.
+```pip install requests``` <- Required for API powered features to work.
 
-```pip install colorama``` <- This should be preinstalled.
+```pip install colorama``` <- Required for console text to be colourized
 
-```pip install py-cord``` <- REQUIRED TO RUN THIS PROJECT! DO NOT USE DISCORD.PY!
+```pip install py-cord``` <- **Required to run the bot. Without this package, the bot will not run.**
 
-```pip install roblox``` <- Optional if you want Roblox features.
+```pip install roblox``` <- Optional if you want Roblox features. If you are going to add back the removed Roblox features, either launch the bot at your own risk or modify the file. To do that, put the `_roblox.py` file into the cogs folder.
 
-```pip install datetime``` <- This should be preinstalled.
+```pip install datetime``` <- Required for time management to work.
 
-```pip install pymongo``` <- Heavily recommended for MongoDB database support.
+```pip install pymongo``` <- Required for data saving to work.
 
-```pip install fortnite_api``` <- Optional if you want Fortnite features.
+```pip install fortnite_api``` <- Required for Fortnite features to work.
 
 -----------------------------------
 
